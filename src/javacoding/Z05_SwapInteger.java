@@ -1,22 +1,22 @@
 package javacoding;
 
-import javax.xml.xpath.XPath;
+
 
 public class Z05_SwapInteger {
 
 	public static void main(String[] args) {
 		
-		int x = 10;
-		int y = 6;
+		int a  = 20;
+		int b = 30;
 		
+		int temp ;
+		temp = a ;
+		a = b;
+		b = temp ;
 		
-		int temp;
-		temp = x;
-		x = y;
-		y = temp;
+		System.out.println( a);
+		System.out.println(b);
 		
-		System.out.println("The x Value is " + x);
-		System.out.println("The Y value is " + y);
 		
 	}
 }

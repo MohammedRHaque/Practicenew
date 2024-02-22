@@ -13,7 +13,7 @@ public boolean liveinNY = true;
 public static void main(String[] args) {
 	PracticeJavaClassInstantiate info = new PracticeJavaClassInstantiate();
 	
-	System.out.println(info.name + info.age);
+	System.out.println(name + info.age);
 	System.out.println("My Name is " + name);
 	
 	

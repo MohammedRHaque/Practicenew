@@ -8,6 +8,7 @@ public static void main(String[] args) {
 	String s1 = "ThEre is a will thEre is a Way, Yes, truE";
 	int count = 0;
 	int count2 = 0;
+	int count3 = 0;
 	
 	//how to count a specific character in one case
 	for (int i =0;i < s.length(); i ++) {
@@ -15,6 +16,13 @@ public static void main(String[] args) {
 			count++;
 		}
 	}
+		for (int i = 0; i <s.length(); i ++) {
+			if (s.charAt(i)== 'n'){
+				count3++ ;
+			}
+			
+		}
+	
 	
 	//how to convert upercase & count all Character here e we r counting
 	for(int i = 0; i<s1.length(); i ++) {
@@ -25,7 +33,7 @@ public static void main(String[] args) {
 	
 	System.out.println("There is total Character is : " + count);
 	System.out.println("There is total Character is : " + count2);
-	
+	System.out.println(count3);
 }
 	
 }

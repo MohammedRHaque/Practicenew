@@ -31,5 +31,6 @@ public class Z06_FibonaciSeries {
  public static void main(String[] args) {
 	Fibonaci(10);
 	Fibonaci(15);
+	Fibonaci(500);
 }
 }

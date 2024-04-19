@@ -1,8 +1,7 @@
 package javacoding;
 
-import java.security.Identity;
 import java.util.Arrays;
-import java.util.jar.Attributes.Name;
+
 
 public class Variables {
 	

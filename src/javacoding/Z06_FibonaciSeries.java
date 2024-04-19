@@ -23,7 +23,7 @@ public class Z06_FibonaciSeries {
 			
 		}
 		System.out.println(Arrays.toString(indexa));
-		System.out.println(Arrays.toString(indexb));
+		System.out.println(Arrays.toString(indexb)); 
 		
 		return n;
 	}

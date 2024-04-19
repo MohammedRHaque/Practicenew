@@ -21,7 +21,7 @@ public class Z07_TypeUrNameByReverse {
 		
 		for(int i=s2.length()-1; i >=0; i--) {
 			System.out.print(s2.charAt(i));
-			
+			 
 		}
 	}
 	

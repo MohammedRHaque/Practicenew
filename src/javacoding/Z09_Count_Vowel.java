@@ -14,7 +14,7 @@ public class Z09_Count_Vowel {
 
 			}
 		}
-		System.out.println(count);
+		System.out.println(count); 
 	}
 
 }

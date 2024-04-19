@@ -22,6 +22,6 @@ public class Z02_primeNumber {
 	
 	
 	public static void main(String[] args) {
-		System.out.println("This is an Prime no True or False : " +isPrimeNo(7));
-	}
+		System.out.println("This is an Prime no True or False : " +isPrimeNo(98));
+	} 
 }

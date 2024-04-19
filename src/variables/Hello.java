@@ -1,6 +1,6 @@
 package variables;
 
-import java.util.function.IntConsumer;
+
 
 public class Hello {
 	static String name =  "Hamid";
@@ -13,7 +13,7 @@ public class Hello {
 		System.out.println("This is a default constructor"); 
 	 }
 	 
-	 public int addition () {
+	 public int allsum () {
 		
 		 int tota1= a  + b;
 		 System.out.println(tota1);
@@ -27,7 +27,7 @@ public class Hello {
 	 public static void main(String[] args) {
 		Hello hello = new Hello();
 	 
-	 System.out.println("The total value" +hello.addition());
+	 System.out.println("The total value" +hello.allsum());
 		System.out.println("<<<<<<<<>>>>>>");
 		 System.out.println( name  + "\n "+ age   + "\n\t " +hello.myApartmentRent + "\n " + hello.myYearlySalary );
 	}

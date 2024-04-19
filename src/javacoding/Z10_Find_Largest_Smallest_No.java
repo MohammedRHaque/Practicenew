@@ -20,7 +20,7 @@ public class Z10_Find_Largest_Smallest_No {
 			}
 					
 			System.out.println("The largest No: "+ largest);
-			System.out.println("The smallest No: " + smallest);
+			System.out.println("The smallest No: " + smallest); 
 			
 			
 		}
